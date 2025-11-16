@@ -24,7 +24,7 @@ bot.start((ctx) => {
                 [
                     { 
                         text: '🎮 Играть в Pong', 
-                        login_url: { url: 'https://pustovoitmaxim.github.io/pong-game/' } 
+                        url: 'https://pustovoitmaxim.github.io/pong-game/'
                     }
                 ]
             ]
@@ -75,6 +75,7 @@ app.listen(PORT, () => {
 bot.catch((err, ctx) => {
     console.error('Bot error:', err);
 });
+
 
 
 
